@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+head {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(26, 151, 230);
+    color: white;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    line-height: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 700;
+}
+
+nav ul li {
+    max-width:min-content
+}
+
+
+img#img-leon {
+   display: block;
+   margin: auto;
+   width: 20rem;
+   border-radius: 5px;
+}
+
+main {
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+
+div {
+    margin-top: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding: 1rem; 
+}
+
+.imagens img{
+    width: 20rem;
+}
